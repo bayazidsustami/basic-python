@@ -38,3 +38,18 @@ t = (5, 'program', 1+3j)
 print(t[0])
 print(t[1])
 print(t[2])
+
+
+# set
+print("-------------------set-------------")
+aSet = {1, 1, 1, 2, 2, 2, 3, 3, 3}
+print(aSet)
+# print(aSet[0]) we can't slicing if we use set because is unordered
+
+# dictionary
+print("---------------dictionary----------")
+aDict = {1: "value", "key": 2}
+print(type(aDict))
+print(aDict)
+print(aDict[1])
+print(aDict["key"])
