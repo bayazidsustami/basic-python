@@ -26,7 +26,15 @@ print(binatang)
 s = "Hello World!"
 print(s[4])  # ambil karakter kelima dari string s
 print(s[6:11])  # ambil karakter ketujuh hingga sebelas dari string s
-s[5] = "d"  # ubah karakter keenam dari string s menjadi "d", seharusnya gagal karena immutable
+# s[5] = "d"  # ubah karakter keenam dari string s menjadi "d", seharusnya gagal karena immutable
 # ubah isi string s menjadi "Halo Dunia!", seharusnya berhasil karena mutable
 s = "Halo Dunia!"
 print(s)
+
+
+# tuple
+print("------------------tuple-------------")
+t = (5, 'program', 1+3j)
+print(t[0])
+print(t[1])
+print(t[2])
