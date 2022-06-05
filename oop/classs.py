@@ -8,7 +8,7 @@ class Kalkulator:
         return 'hello world'
 
     @classmethod
-    def tambah_angka(cls, angka1, angka2):
+    def tambah_angka(self, angka1, angka2):
         return "{} + {} = {}".format(angka1, angka2, angka1+angka2)
 
     @staticmethod
